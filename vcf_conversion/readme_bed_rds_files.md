@@ -36,10 +36,10 @@ mergebed_GENR*sh
 ## Decriptives
 This QC procedures results in following number of pariticpants and SNPs
 
-* GenR3 Children: XXX participants, XXX snps
-* GenR4 Children: XXX participants, XXX snps
-* GenR4 Mothers: XXX participants, XXX snps
-* GenR Parents: XXX participants, XXX snps
+* GenR3 Children: 5756 participants, 7673245 snps
+* GenR4 Children: 1809 participants, 9508795 snps
+* GenR4 Mothers: 1530 participants, 8495580 snps
+* GenR Parents: 11742 participants, 9520497 snps
 
 ## Additional conversions
 .bed files are given either per chromosome, or as merged files across all
