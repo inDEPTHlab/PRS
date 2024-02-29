@@ -41,6 +41,11 @@ This QC procedures results in following number of pariticpants and SNPs
 * GenR4 Mothers: 1530 participants, 8495580 snps
 * GenR Parents: 11742 participants, 9520497 snps
 
+### Note:
+* Pariticpants in GenR Parents also include participants from GenR4 Mothers, but have undergone a joint imputation pipeline for all parents
+* Remember for all analyses to use the most up-to-date selection file from the GenR wiki (SelectionGWAv3_\*, Selection_GWAv4-Child_\*, SelectionGenR-Parents_*)
+* In case of joint parent and child analyses, use SelectionGWA_ChildParentKinship_\* to match children and parents based on genetically verified relatedness
+
 ## Additional conversions
 .bed files are given either per chromosome, or as merged files across all
 autosomes. Furthermore, .rds files are provided, which are bignspr conversions
@@ -51,7 +56,7 @@ bigsnpr::snp_readBed
 ```
 
 ## Further information
-Code can also be found on the inDEPTHlab github:
+Conversion code can be found on the inDEPTHlab github:
 https://github.com/inDEPTHlab/PRS
 
 ## Authors
@@ -59,3 +64,7 @@ Authors: Nicole Creasey, Isabel Schuurmans, Alexander Neumann
 
 Maintainer: Alexander Neumann (a.neumann@erasmusmc.nl;
 alexander.neumann.science@gmail.com)
+
+For general questions about the genetic or other
+GenR data, please contact GenR data management.
+(datamanagementgenr@erasmusmc.nl)
